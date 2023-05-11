@@ -12,7 +12,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 html, body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -29,11 +29,12 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Times New Roman", serif;
+  font-family: Poppins;
   font-weight: normal;
   margin-top: 0;
 }
