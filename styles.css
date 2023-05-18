@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --main-color: #A62921;
+}
+
 /* Global styles */
 body::-webkit-scrollbar {
   width: 0.3rem;
@@ -11,119 +16,25 @@ body::-webkit-scrollbar-thumb {
   background: #A62921;
 }
 
-html, body {
-  font-family: "Poppins", sans-serif;
+html {
+  font-family: "Poppins";
   scroll-behavior: smooth;
-  font-family: Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  color: #333;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-
-.campus-with-description {
+html .ra_logo_fr {
+  border-radius: 70px;
+}
+html .hero {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+html .hero img {
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+html #about .wrapper {
   display: flex;
-}
-
-a {
-  color: #A62921;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Poppins;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-/* Header section */
-header {
-  background-color: #fff;
-  padding: 20px;
-  border-bottom: 2px solid #A62921;
-}
-header h1 {
-  font-size: 36px;
-  margin: 0;
-}
-header h1 a {
-  color: #A62921;
-  text-decoration: none;
-}
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-header nav ul li:last-child {
-  margin-right: 0;
-}
-header nav ul li a {
-  display: block;
-  padding: 0.7em;
-}
-header nav ul li a:hover {
-  transition: 0.3s;
-  background-color: #A62921;
-  text-decoration: none;
-  color: #fff;
-}
-
-/* Welcome section */
-#welcome {
-  background-color: #f5f5f5;
-  padding: 50px;
-  text-align: center;
-}
-#welcome h2 {
-  font-size: 24px;
-  margin-bottom: 30px;
-}
-
-/* About section */
-#about {
-  background-color: #fff;
-  padding: 50px;
-}
-#about img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-}
-#about p {
-  margin-bottom: 20px;
-}
-
-/* Before &amp; After section */
-#before-after {
-  background-color: #f5f5f5;
-  padding: 50px;
-  text-align: center;
-}
-#before-after h2 {
-  font-size: 24px;
-  margin-bottom: 30px;
-}
-
-/* Testimonials section */
-#testimonials {
-  background-color: #fff;
-  padding: 50px;
-}
-#testimonials blockquote {
-  font-style: italic;
-  margin-bottom: 30px;
-}
-#testimonials blockquote p {
-  margin-bottom: 10px;
-}
-#testimonials blockquote cite {
-  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */

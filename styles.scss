@@ -1,4 +1,7 @@
-$main-color: #A62921;
+:root {
+        --main-color: #A62921;
+      }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 /* Global styles */
 body::-webkit-scrollbar {
     width: 0.3rem;
@@ -12,123 +15,31 @@ body::-webkit-scrollbar {
     background: #A62921;
   }
 
-html, body {
-  font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  
-}
-.campus-with-description{
-    display: flex;
-}
-
-a {
-  color: $main-color;
-  text-decoration: none;
-  &:hover {
-    text-decoration: none;
-    border-radius: 5px;
-  }
-}
-
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Poppins;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-/* Header section */
-header {
-  background-color: #fff;
-  padding: 20px;
-  border-bottom: 2px solid $main-color;
-  h1 {
-    font-size: 36px;
-    margin: 0;
-    a {
-      color: $main-color;
-      text-decoration: none;
+  html{
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    font-size: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+    .ra_logo_fr{
+        border-radius: 70px;
     }
-  }
-  nav {
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      li {
-        display: inline-block;
-        margin-right: 20px;
-        &:last-child {
-          margin-right: 0;
+    
+    .hero{
+        margin: 0 !important;
+        padding: 0 !important;
+        img{
+            width: 100%;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
         }
-        a {
-          display: block;
-          padding: .7em;
-          &:hover {
-            transition: .3s;
-            background-color: $main-color;
-            text-decoration: none;
-            color: #fff;
-          }
+    }
+    #about{
+        .wrapper{
+            display: flex;
         }
-      }
     }
   }
-}
 
-/* Welcome section */
-#welcome {
-  background-color: #f5f5f5;
-  padding: 50px;
-  text-align: center;
-  h2 {
-    font-size: 24px;
-    margin-bottom: 30px;
-  }
-}
 
-/* About section */
-#about {
-  background-color: #fff;
-  padding: 50px;
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  p {
-    margin-bottom: 20px;
-  }
-}
 
-/* Before &amp; After section */
-#before-after {
-  background-color: #f5f5f5;
-  padding: 50px;
-  text-align: center;
-  h2 {
-    font-size: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-/* Testimonials section */
-#testimonials {
-  background-color: #fff;
-  padding: 50px;
-  blockquote {
-    font-style: italic;
-    margin-bottom: 30px;
-    p {
-      margin-bottom: 10px;
-    }
-    cite {
-      font-weight: bold;
-    }
-  }
-}
