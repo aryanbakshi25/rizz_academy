@@ -20,21 +20,103 @@ html {
   font-family: "Poppins";
   scroll-behavior: smooth;
   font-size: 16px;
+}
+html #hero-section {
+  background: url(images/be_the_pic.webp);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html body {
   margin: 0 !important;
   padding: 0 !important;
+}
+html header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #A42C25;
+  padding-right: 2em;
+}
+html header img {
+  transition: transform 0.7s ease-in-out;
+}
+html header img:hover {
+  transform: rotate(360deg);
+}
+html header nav {
+  justify-content: space-around;
+}
+html header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+html header nav ul li {
+  list-style: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+html header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+html header nav ul li a:hover {
+  border-bottom: 3px solid white;
+  transition-duration: 0.2s;
+  padding-bottom: 3px;
 }
 html .ra_logo_fr {
-  border-radius: 70px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-left: 1em;
+  margin-top: 1em;
 }
-html .hero {
+html .hero-img {
   margin: 0 !important;
   padding: 0 !important;
+  height: 100vh;
 }
-html .hero img {
+html .hero-img img {
   width: 100%;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
+  height: 101vh;
+}
+html .hero-text {
+  width: 50%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  transform: translate(1em, 2.5em);
+  rotate: 345deg;
+}
+html #about {
+  text-align: center;
+  padding-top: 5em;
 }
 html #about .wrapper {
   display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+}
+html #about .wrapper .campus-pic {
+  flex: 1;
+  margin-right: 2em;
+}
+html #about .wrapper .campus-pic img {
+  max-width: 100%;
+}
+html #about .wrapper .campus-description {
+  flex: 1;
+}
+html #about .wrapper .campus-description p {
+  margin-bottom: 0;
+  margin-top: 0;
 }/*# sourceMappingURL=styles.css.map */
