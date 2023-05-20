@@ -20,6 +20,11 @@ html {
   font-family: "Poppins";
   scroll-behavior: smooth;
   font-size: 16px;
+  background-color: #f2f2f2;
+}
+html h1 {
+  text-decoration: underline;
+  color: #f2f2f2;
 }
 html #hero-section {
   background: url(images/be_the_pic.webp);
@@ -98,7 +103,7 @@ html .hero-text {
 }
 html #about {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 3em;
 }
 html #about .wrapper {
   display: flex;
@@ -119,4 +124,116 @@ html #about .wrapper .campus-description {
 html #about .wrapper .campus-description p {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+#about {
+  background-color: #20272e;
+  color: white;
+  line-height: 2;
+}
+#about a {
+  color: #92bad8;
+  background-color: rgba(233, 255, 50, 0.3);
+}
+#about a:hover {
+  color: #ff1493;
+}
+
+#admissions h2 {
+  text-align: center;
+  padding-top: 3em;
+}
+#admissions .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#admissions .wrapper .left-admissions-desc {
+  flex: 1;
+  text-align: left;
+  padding-right: 1em;
+}
+#admissions .wrapper .left-admissions-desc a {
+  color: #4794d0;
+  background-color: rgba(255, 20, 147, 0.3);
+}
+#admissions .wrapper .left-admissions-desc a:hover {
+  color: #A42C25;
+}
+#admissions .wrapper .right-avg-student {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+}
+#admissions .wrapper img {
+  width: 100%;
+  height: 20em;
+}
+
+#academics {
+  background-color: #cce0f4;
+  padding: 3em;
+}
+#academics .wrapper {
+  display: flex;
+}
+#academics h2 {
+  text-align: center;
+}
+#academics img {
+  padding: 1em;
+}
+
+.before_and_after {
+  padding: 2rem;
+}
+.before_and_after h2 {
+  text-align: center;
+}
+.before_and_after p {
+  text-align: center;
+}
+.before_and_after .wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.before_and_after .slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+.before_and_after .slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.before_and_after .slider-nav {
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.before_and_after .slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+.before_and_after .slider-nav a:hover {
+  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */
