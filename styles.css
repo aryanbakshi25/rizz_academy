@@ -188,6 +188,8 @@ html #about .wrapper .campus-description p {
 }
 
 #before_and_after {
+  background-color: #1e1e24;
+  color: white;
   padding: 2rem;
 }
 #before_and_after h2 {
@@ -236,4 +238,66 @@ html #about .wrapper .campus-description p {
 }
 #before_and_after .slider-nav a:hover {
   opacity: 1;
+}
+
+.checked {
+  color: orange;
+}
+
+#testimonials {
+  padding-top: 3em;
+  background-color: rgba(225, 94, 147, 0.35);
+}
+#testimonials h2 {
+  text-align: center;
+}
+#testimonials p {
+  text-align: center;
+}
+#testimonials .wrapper {
+  display: flex;
+  padding: 1.5em;
+}
+#testimonials .quotes {
+  flex: 1;
+}
+#testimonials .stars {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+#testimonials .stars .first-star {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+#testimonials .stars .second-star {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+#testimonials .stars .third-star {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+
+#contact-section-id {
+  background: #191d21;
+  color: white;
+  border: none;
+}
+#contact-section-id .container .contact-methods {
+  display: block;
+}
+#contact-section-id .container .cwd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact-section-id .container .cwd p {
+  opacity: 60%;
+}
+#contact-section-id .container .cwd img {
+  padding: 1em;
+  max-width: 47px;
 }/*# sourceMappingURL=styles.css.map */
