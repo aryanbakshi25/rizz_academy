@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "name": "rizz_academy",
+  "description": "First Look at the all new Rizz Academy!",
+  "version": "1.0.0",
+  "main": "final.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanbakshi25/rizz_academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanbakshi25/rizz_academy/issues"
+  },
+  "homepage": "https://github.com/aryanbakshi25/rizz_academy#readme"
 }
